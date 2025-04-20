@@ -81,4 +81,15 @@ with st.expander("Education"):
 
 
 
+with open("Asaf_Resume_01_15_25.pdf", "rb") as file:
+    btn = st.download_button(
+        label="📄 Download Resume (PDF)",
+        data=file,
+        file_name="Asaf_Resume.pdf",
+        mime="application/pdf"
+    )
+
+
+
+
 
